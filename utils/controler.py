@@ -10,8 +10,17 @@ def add_user(users_data: list) -> None:
     users_data.append({'name': new_name, 'location': new_location, 'posts': new_posts}, )
 
 
-def remove_user(users_data: list)->None:
-    user_name:str = input('podaj znajomego do usunięcia: ')
+def remove_user(users_data: list) -> None:
+    user_name: str = input('podaj znajomego do usunięcia: ')
     for user in users_data:
         if user['name'] == user_name:
             users_data.remove(user)
+
+
+def update_user(users_data: list) -> None:
+    user_name: str = input('podaj imię użytkownika do aktualizacji: ')
+    for user in users_data:
+        if user['name'] == user_name:
+            user['name'] = input('podaj nowe imię użytkownika: ')
+            user['location'] = input('podaj lokalizację: ')
+            user['posts'] = input('podaj liczbę postów nowego znajomego: ')
