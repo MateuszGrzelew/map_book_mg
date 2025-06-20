@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_03c8589c705deeda78dd0d3162a0f02d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_03c8589c705deeda78dd0d3162a0f02d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_03c8589c705deeda78dd0d3162a0f02d = L.map(
+                "map_03c8589c705deeda78dd0d3162a0f02d",
+                {
+                    center: [52.23, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_87bf093dfd6a7fcba85f1932a9e4e9ff = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_87bf093dfd6a7fcba85f1932a9e4e9ff.addTo(map_03c8589c705deeda78dd0d3162a0f02d);
+        
+    
+            var marker_e89587d17dfd41a1783be43321c7261c = L.marker(
+                [51.776666666666664, 19.454722222222223],
+                {
+}
+            ).addTo(map_03c8589c705deeda78dd0d3162a0f02d);
+        
+    
+        var popup_8e6b812976d3c34e20873e8a992380ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_344792610103320394f01ad7ef99f0a3 = $(`<div id="html_344792610103320394f01ad7ef99f0a3" style="width: 100.0%; height: 100.0%;">Twój znajomy Mateusz z miejscowości Łódź opublikował 100 postów.</div>`)[0];
+                popup_8e6b812976d3c34e20873e8a992380ab.setContent(html_344792610103320394f01ad7ef99f0a3);
+            
+        
+
+        marker_e89587d17dfd41a1783be43321c7261c.bindPopup(popup_8e6b812976d3c34e20873e8a992380ab)
+        ;
+
+        
+    
+    
+            var marker_5e310536c2ed8a8bc8d11113ca74ed74 = L.marker(
+                [52.40833333333333, 16.934166666666666],
+                {
+}
+            ).addTo(map_03c8589c705deeda78dd0d3162a0f02d);
+        
+    
+        var popup_37d016d8623a50e78b8ad07b37839dcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec3ad8eae2c2ac275d46bb3171456602 = $(`<div id="html_ec3ad8eae2c2ac275d46bb3171456602" style="width: 100.0%; height: 100.0%;">Twój znajomy Maciej z miejscowości Poznań opublikował 200 postów.</div>`)[0];
+                popup_37d016d8623a50e78b8ad07b37839dcb.setContent(html_ec3ad8eae2c2ac275d46bb3171456602);
+            
+        
+
+        marker_5e310536c2ed8a8bc8d11113ca74ed74.bindPopup(popup_37d016d8623a50e78b8ad07b37839dcb)
+        ;
+
+        
+    
+    
+            var marker_61c07e24408df90c221eb6e4ce9f1e00 = L.marker(
+                [52.23222222222223, 21.008333333333333],
+                {
+}
+            ).addTo(map_03c8589c705deeda78dd0d3162a0f02d);
+        
+    
+        var popup_8727d296cb2bfb818bc6d3bf3cadaedb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07298d4846ecd2eccfcf9d1d9702c762 = $(`<div id="html_07298d4846ecd2eccfcf9d1d9702c762" style="width: 100.0%; height: 100.0%;">Twój znajomy Maciej01 z miejscowości Warszawa opublikował 300 postów.</div>`)[0];
+                popup_8727d296cb2bfb818bc6d3bf3cadaedb.setContent(html_07298d4846ecd2eccfcf9d1d9702c762);
+            
+        
+
+        marker_61c07e24408df90c221eb6e4ce9f1e00.bindPopup(popup_8727d296cb2bfb818bc6d3bf3cadaedb)
+        ;
+
+        
+    
+    
+            var marker_75a56974f3bb560c86179ae31cff3212 = L.marker(
+                [51.11, 17.022222222222222],
+                {
+}
+            ).addTo(map_03c8589c705deeda78dd0d3162a0f02d);
+        
+    
+        var popup_bf80468bc967292e9a0a57fceb0cb885 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6d0a70e246ea80eabaf68d2ec83c9c4 = $(`<div id="html_e6d0a70e246ea80eabaf68d2ec83c9c4" style="width: 100.0%; height: 100.0%;">Twój znajomy Konrad z miejscowości Wrocław opublikował 400 postów.</div>`)[0];
+                popup_bf80468bc967292e9a0a57fceb0cb885.setContent(html_e6d0a70e246ea80eabaf68d2ec83c9c4);
+            
+        
+
+        marker_75a56974f3bb560c86179ae31cff3212.bindPopup(popup_bf80468bc967292e9a0a57fceb0cb885)
+        ;
+
+        
+    
+</script>
+</html>
