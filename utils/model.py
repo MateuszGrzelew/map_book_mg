@@ -1,6 +1,6 @@
 users:list=[
-    {'name':'Mateusz','location':'Poznań','posts':100},
-    {'name':'Maciej','location':'Łódż','posts':200},
-    {'name':'Maciej01','location':'Siedlice','posts':300},
-    {'name':'Konrad','location':'Grudziądz','posts':400},
+    {'name':'Mateusz','location':'Łódź','posts':100},
+    {'name':'Maciej','location':'Poznań','posts':200},
+    {'name':'Maciej01','location':'Warszawa','posts':300},
+    {'name':'Konrad','location':'Wrocław','posts':400},
 ]
